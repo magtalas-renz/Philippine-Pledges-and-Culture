@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+
+  <style>
+     }
+
+    /* Navigation Buttons */
+    .nav {
+      margin-bottom: 30px;
+    }
+    .button {
+      border: none;
+      color: black;
+      padding: 10px 14px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 6px;
+      transition-duration: 0.3s;
+      cursor: pointer;
+      border-radius: 6px;
+      background-color: lightgray;
+      font-weight: bold;
+    }
+    .button:hover { transform: scale(1.05); }
+
+    .button1:hover { background-color:#ffffff; }
+    .button2:hover { background-color:#0000ff; color:#fff; }
+    .button3:hover { background-color:#ffff00; color:#000; }
+    .button4:hover { background-color:#ff0000; color:#fff; }
+    .button5:hover { background-color:#808080; color:#fff; }
+
+
+    /* Page Styling */
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      color: #fff;
+      background: #0b0b0b;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section {
+      background: rgba(0, 0, 0, 0.65);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+      max-width: 800px;
+      margin: 40px auto;
+      animation: fadeIn 2s ease-in-out;
+
+      /* Gold Border Effect */
+      border: 3px solid transparent;
+      background-clip: padding-box, border-box;
+      background-origin: border-box;
+      background-image: 
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), 
+        linear-gradient(135deg, #FFD700, #FFB700, #FFD700);
+    }
+
+    h1 {
+      font-size: 34px;
+      margin-bottom: 20px;
+      color: #FFD700;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    }
+
+    .values {
+      font-size: 20px;
+      line-height: 2;
+      letter-spacing: 1px;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      color: #ddd;
+      font-style: italic;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <!-- 🔹 Navigation Buttons ABOVE the container -->
+  <div class="buttons">
+<a href="index.html">
+    <button class="button button1">Home</button>
+</a>
+<a href="gallery2.html">
+    <button class="button button2">Gallery</button>
+</a>
+<a href="profile2.html">
+    <button class="button button3">Profile</button>
+</a>
+<a href="culture2.html">
+    <button class="button button4">Culture</button>
+</a>
+<a href="about2.html">
+    <button class="button button5">About Us</button>
+</a>
+  <!-- About Us Section -->
+  <section>
+    <h1>About Us</h1>
+    <div class="values">
+      Our website is dedicated to celebrating and preserving the cultural richness of the Philippines. We aim to highlight the traditions, values, and artistic expressions that shape Filipino identity and unite communities. 
+
+      Through meaningful platforms for cultural awareness, we hope to inspire pride, strengthen unity, and promote appreciation of our nation’s diverse heritage. Preserving these traditions is not only a responsibility to future generations but also a way to showcase the Philippines on the global stage. 
+
+      Every effort we make reflects our commitment to honoring our ancestors, embracing our diversity, and keeping our cultural spirit alive for years to come.
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg:#0b0b0b;
+      --panel:#151515;
+      --muted:#cfcfcf;
+      --accent:#d4af37; /* gold */
+    }
+
+    * { box-sizing:border-box; margin:0; padding:0 }
+    body {
+      font-family: "Lora", serif;
+      background:var(--bg);
+      color:#fff;
+      line-height:1.8;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      min-height:100vh;
+      padding:40px 20px;
+    }
+
+    .container {
+      width:100%;
+      max-width:1000px;
+      background:var(--panel);
+      border-radius:14px;
+      padding:40px 34px;
+      border:2px solid var(--accent);
+      box-shadow: 0 0 20px rgba(212,175,55,0.3);
+      text-align:center;
+      margin-top:20px;
+    }
+
+    h1 {
+      color: var(--accent);
+      margin-bottom:20px;
+      font-family:"Merriweather", serif;
+    }
+
+    .gallery {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:15px;
+    }
+
+    .gallery img {
+      width:250px;
+      height:200px;
+      border-radius:8px;
+      border:2px solid var(--accent);
+      object-fit:cover;
+    }
+
+    /* 🔹 Buttons */
+    .buttons {
+      margin-bottom:20px;
+      text-align:center;
+    }
+
+    .button {
+      border: none;
+      color: gray;
+      padding: 10px 14px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius:6px;
+font-weight: bold;
+    }
+
+    .button1 { background-color: lightgray; color: black; }
+    .button1:hover { background-color: #FFFFFF; }
+
+    .button2 { background-color: lightgray; color: black; }
+    .button2:hover { background-color: #0000FF; color:#fff; }
+
+    .button3 { background-color: lightgray; color: black; }
+    .button3:hover { background-color: #FFFF00; color:#000; }
+
+    .button4 { background-color: lightgray; color: black; }
+    .button4:hover { background-color: #FF0000; color:#fff; }
+
+    .button5 { background-color: lightgray; color: black; }
+    .button5:hover { background-color: #808080; color:#fff; }
+  </style>
+</head>
+<body>
+
+    <!-- 🔹 Navigation Buttons ABOVE the container -->
+  <div class="buttons">
+<a href="index.html">
+    <button class="button button1">Home</button>
+</a>
+<a href="gallery2.html">
+    <button class="button button2">Gallery</button>
+</a>
+<a href="profile2.html">
+    <button class="button button3">Profile</button>
+</a>
+<a href="culture2.html">
+    <button class="button button4">Culture</button>
+</a>
+<a href="about2.html">
+    <button class="button button5">About Us</button>
+</a>
+  </div>
+
+  <!-- 🔹 Main Container -->
+  <div class="container">
+
+    <section>
+      <h1>Festivals & Traditions</h1>
+      <div class="gallery">
+        <img src="sinulog.jpg" alt="Sinulog">
+        <img src="atiatihan.jpg" alt="Ati-atihan">
+        <img src="Stories.jpg" alt="Stories">
+        <img src="Panagbenga.jpg" alt="Panagbenga">
+        <img src="carnaval.jpg" alt="Carnaval">
+      </div>
+    </section>
+
+    <section>
+      <h1>Historical Landmarks</h1>
+      <div class="gallery">
+        <img src="magellan.jpg" alt="Magellan">
+        <img src="luneta.jpg" alt="Luneta">
+        <img src="banaue.jpg" alt="Banaue">
+        <img src="intramuros.jpg" alt="Intramuros">
+        <img src="vigan.jpg" alt="Vigan">
+      </div>
+    </section>
+
+    <section>
+      <h1>Filipino Foods</h1>
+      <div class="gallery">
+        <img src="bicol.jpg" alt="Bicol Express">
+        <img src="karekare.jpg" alt="Kare-Kare">
+        <img src="adobo.jpg" alt="Adobo">
+        <img src="sinigang.jpg" alt="Sinigang">
+        <img src="halo-halo.jpg" alt="Halo-halo">
+      </div>
+    </section>
+
+    <section>
+      <h1>People & Lifestyle</h1>
+      <div class="gallery">
+        <img src="road.jpg" alt="Road Scene">
+        <img src="bayanihan.jpg" alt="Bayanihan">
+        <img src="food.jpg" alt="Food Sharing">
+        <img src="teach.jpg" alt="Teaching">
+        <img src="flow.jpg" alt="Cultural Flow">
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>

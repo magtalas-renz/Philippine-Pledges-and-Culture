@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#0b0b0b;
+      --panel:#151515;
+      --muted:#cfcfcf;
+      --accent:#d4af37; /* gold */
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family: "Lora", serif;
+      background:var(--bg);
+      color:#fff;
+      line-height:1.8;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      min-height:100vh;
+      padding:40px 20px;
+    }
+
+    .container{
+      width:100%;
+      max-width:860px;
+      background:var(--panel);
+      border-radius:14px;
+      padding:40px 34px;
+      border:2px solid var(--accent);
+      box-shadow: 0 0 20px rgba(212,175,55,0.3);
+      text-align:center;
+    }
+
+    .flag{
+      width:110px;
+      margin-bottom:16px;
+      border:2px solid var(--accent);
+      border-radius:6px;
+      box-shadow: 0 0 12px rgba(212,175,55,0.4);
+    }
+
+    .main-title{
+      font-family:"Merriweather", serif;
+      font-size:30px;
+      color:var(--accent);
+      margin-bottom:8px;
+    }
+
+    .subtitle{
+      color:var(--muted);
+      font-size:14px;
+      margin-bottom:28px;
+    }
+
+    .section{
+      margin-bottom:32px;
+      background:rgba(0,0,0,0.4);
+      border:1.5px solid var(--accent);
+      border-radius:10px;
+      padding:24px;
+    }
+
+    .section-title{
+      font-family:"Merriweather", serif;
+      font-size:22px;
+      color:var(--accent);
+      margin-bottom:16px;
+      text-transform:uppercase;
+      letter-spacing:1px;
+    }
+
+    .pledge{
+      font-family:"Lora", serif;
+      font-size:17px;
+      white-space:pre-line;
+      text-align:center;
+      margin:0 auto;
+      max-width:640px;
+      color:#eee;
+    }
+
+    .values{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      align-items:center;
+      margin-top:10px;
+    }
+
+    .values .item{
+      font-weight:500;
+      font-size:18px;
+      font-family:"Merriweather", serif;
+      letter-spacing:1px;
+      color:var(--accent);
+    }
+
+    footer{
+      margin-top:28px;
+      color:var(--muted);
+      font-size:13px;
+      font-style:italic;
+    }
+
+    /* 🔹 Button styles */
+    .buttons {
+      margin-bottom:20px;
+      text-align:center;
+    }
+
+    .button {
+      border: none;
+      color: gray;
+      padding: 10px 14px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius:6px;
+font-weight: bold;
+    }
+
+    .button1 { background-color: lightgray; color: black; }
+    .button1:hover { background-color: #FFFFFF; }
+
+    .button2 { background-color: lightgray; color: black; }
+    .button2:hover { background-color: #0000FF; color:#fff; }
+
+    .button3 { background-color: lightgray; color: black; }
+    .button3:hover { background-color: #FFFF00; color:#000; }
+
+    .button4 { background-color: lightgray; color: black; }
+    .button4:hover { background-color: #FF0000; color:#fff; }
+
+    .button5 { background-color: lightgray; color: black; }
+    .button5:hover { background-color: #808080; color:#fff; }
+  </style>
+</head>
+<body>
+
+   <!-- 🔹 Navigation Buttons ABOVE the container -->
+  <div class="buttons">
+<a href="index.html">
+    <button class="button button1">Home</button>
+</a>
+<a href="gallery2.html">
+    <button class="button button2">Gallery</button>
+</a>
+<a href="profile2.html">
+    <button class="button button3">Profile</button>
+</a>
+<a href="culture2.html">
+    <button class="button button4">Culture</button>
+</a>
+<a href="about2.html">
+    <button class="button button5">About Us</button>
+</a>
+
+  </div>
+
+  <!-- Main bordered content -->
+  <div class="container">
+    <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg" alt="Philippine Flag">
+
+    <h1 class="main-title">Panatang Makabayan &amp; Core Values</h1>
+    <p class="subtitle">Isang Panata at mga Pinahahalagahan ng Bansa</p>
+
+    <section class="section">
+      <h2 class="section-title">Panatang Makabayan</h2>
+      <div class="pledge">
+INIIBIG KO ANG PILIPINAS  
+AKING LUPANG SINILANGAN  
+TAHANAN NG AKING LAHI  
+KINUKUPKOP AKO AT TINUTULUNGAN  
+UPANG MAGING MALAKAS, MASIPAG, AT MARANGAL  
+
+DAHIL MAHAL KO ANG PILIPINAS  
+DIRINGGIN KO ANG PAYO NG AKING MGA MAGULANG  
+SUSUNDIN KO ANG TUNTUNIN NG PAARALAN  
+TUTUPARIN KO ANG TUNGKULIN NG MAMAMAYANG MAKABAYAN  
+
+NAGLILINGKOD, NAG AARAL, AT NANANALANGIN  
+NANG BUONG KATAPATAN  
+IAALAY KO ANG AKING BUHAY, PANGARAP AT PAGSISIKAP  
+SA BANSANG PILIPINAS.
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Core Values</h2>
+      <div class="values">
+        <div class="item">MAKA-DIYOS</div>
+        <div class="item">MAKA-TAO</div>
+        <div class="item">MAKA-KALIKASAN</div>
+        <div class="item">AT MAKA-BANSA</div>
+      </div>
+    </section>
+
+    <footer>🇵🇭 Gabay sa Bawat Pilipino • Pundasyon ng Ating Bansa</footer>
+  </div>
+
+</body>
+</html>
